@@ -12,6 +12,5 @@ namespace Projeto.Repository.Contracts
         void Alterar(TEntity entity);
         void Excluir(TEntity entity);
         List<TEntity> Consultar();
-        TEntity ObterPorId(Guid id);
     }
 }
