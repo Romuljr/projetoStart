@@ -11,6 +11,7 @@ namespace Projeto.Repository.Contracts
         void Inserir(TEntity entity);
         void Alterar(TEntity entity);
         void Excluir(TEntity entity);
+        void Consultar(TEntity entity);
                
     }
 }
